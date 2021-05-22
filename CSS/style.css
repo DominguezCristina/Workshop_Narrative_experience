@@ -1,0 +1,186 @@
+body{
+	margin:0;
+}
+
+h1 {
+	font-family: Neuebit;
+	font-size:2120%;
+	color:black;
+	padding:0px 0px 0px 0px;
+	width:100%;
+	height:50px;
+	margin:0px;
+	position: absolute;
+	bottom:16%;
+	line-height:0.5;
+}
+
+h2{
+	font-family: Neuebit;
+	font-size: 300%;
+	color:black;
+	padding:15px 0px 0px 0px;
+	width:100%;
+	height:50px;
+	margin:0px;
+	display: inline flex;
+}
+
+h3{
+	font-family: Neuebit;
+	font-size:150%;
+	color:black;
+	padding:15px 10px 10px 10px;
+	width:100%;
+	margin:0;
+	display: block;
+	background: white;
+	position:fixed;
+	bottom:0%;
+	border-bottom:3px solid black;
+	border-top:3px solid black;
+}
+
+.border {
+	border-bottom: 3px solid black;
+
+}
+
+.img {
+	width:100%;
+	height:100%;
+
+}
+
+.imgcover {
+	width:100%;
+	height:100%;
+}
+
+#nav {
+	text-decoration: none;
+	color:black;
+}
+
+#nav:hover {
+	text-decoration: none;
+	color:blue;
+}
+
+.flex 	{
+	display:flex;
+	justify-content:space-between;
+	margin: 0px;
+}
+
+
+.box_1 {
+	background: white;
+	border: 3px solid black;
+	margin:60px 220px 200px 220px;
+	position:absolute;
+	left:5%;
+	right:5%;
+	max-width: 66.666vw;
+	max-height: 450px;
+	align-content: center;
+}
+
+.boxcontainer {
+	display: flex;
+	align-items:center;
+	position: absolute;
+	top:0%;
+	left:5%;
+	right:5%;
+	width:100vw;
+	height:100vh;
+
+}
+
+.paragrafotitolo{
+	font-family: Neuebit;
+	font-size: 250%;
+	text-align: center;
+	margin: 5px 5px 0px 5px;
+	background: black;
+	border: 4px solid black;
+	color:white;
+}
+
+.paragrafobase {
+	font-family: Neuebit;
+	font-size: 220%;
+	margin: 0px 35px 0px 35px;
+	max-height: 250px;
+	overflow: auto;
+}
+
+.testocentrato {
+	font-family: Neuebit;
+	font-size:200%;
+	text-align:center;
+}
+
+
+.griglia {
+	max-width:100%;
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-column-gap:25px;
+	grid-row-gap:10px;
+	margin:0px 15px 0px 15px;
+}
+
+
+.span_1 {
+	grid-column: span 1;
+}
+
+.span_3 {
+	grid-column: span 3;
+}
+
+.span_4 {
+	grid-column: span 4;
+}
+
+.span_5 {
+	grid-column: span 5;
+}
+
+.span_6 {
+	grid-column: span 6;
+}
+
+.span_7 {
+	grid-column: span 7;
+}
+
+.span_8 {
+	grid-column: span 8;
+}
+
+.span_9 {
+	grid-column: span 9;
+}
+
+.span_10 {
+	grid-column: span 10;
+}
+
+.span_11 {
+	grid-column: span 11;
+}
+
+
+@font-face {
+    font-family: 'NeueBit';
+    src: url('NeueBit-Bold.woff2') format('woff2'),
+        url('NeueBit-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
